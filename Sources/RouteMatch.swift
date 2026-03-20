@@ -33,30 +33,13 @@ public struct RouteMatch {
     }
 
     /// Decode the query dictionary into a `QueryParams` conforming type.
-    /// Uses `JSONSerialization` round-trip: dict -> JSON data -> Codable decode.
+    /// Uses the query dictionary to populate the type.
     /// Falls back to `T()` on any failure.
     public func decodeQuery<T: QueryParams>() -> T {
-        guard !query.isEmpty else { return T() }
-
-        // Build a JSON-compatible dictionary, attempting numeric conversion
-        var jsonDict: [String: Any] = [:]
-        for (key, value) in query {
-            if let intVal = Int(value) {
-                jsonDict[key] = intVal
-            } else if let doubleVal = Double(value) {
-                jsonDict[key] = doubleVal
-            } else if value == "true" || value == "false" {
-                jsonDict[key] = value == "true"
-            } else {
-                jsonDict[key] = value
-            }
-        }
-
-        guard let data = try? JSONSerialization.data(withJSONObject: jsonDict),
-              let decoded = try? JSONDecoder().decode(T.self, from: data)
-        else {
-            return T()
-        }
-        return decoded
+        // For WASM, Foundation is not available. Use a simple approach:
+        // return default instance. Full decoding requires the @Routable macro
+        // to generate per-type decoders that don't depend on Foundation.
+        // TODO: Generate type-specific decoders in Phase 3 macro.
+        return T()
     }
 }

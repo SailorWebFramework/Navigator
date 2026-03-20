@@ -18,6 +18,7 @@ import Sailor
 ///     Span("About Us")
 /// }
 /// ```
+@MainActor
 public struct Link<R: Routable>: Fragment {
     public var hash: String
     public var children: [any Page]
@@ -76,6 +77,7 @@ public struct Link<R: Routable>: Fragment {
 ///     Span("API Reference")
 /// }
 /// ```
+@MainActor
 public struct HashLink<H: HashRoute>: Fragment {
     public var hash: String
     public var children: [any Page]

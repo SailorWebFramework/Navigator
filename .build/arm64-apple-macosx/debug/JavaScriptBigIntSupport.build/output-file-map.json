@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/master.swiftdeps"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/JavaScriptKit/Sources/JavaScriptBigIntSupport/Int64+I64.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/JavaScriptKit/Sources/JavaScriptBigIntSupport/JSBigInt+I64.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/JavaScriptKit/Sources/JavaScriptBigIntSupport/XcodeSupport.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/XcodeSupport.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/XcodeSupport.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/XcodeSupport~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/XcodeSupport.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/XcodeSupport.dia"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/master.swiftdeps"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/EventScheduler/WebEventScheduler.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEventScheduler.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEventScheduler.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEventScheduler~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEventScheduler.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEventScheduler.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/Events/EventResult+JSClosure.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+JSClosure.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+JSClosure.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+JSClosure~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+JSClosure.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+JSClosure.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/JSNode/JSNode+Global.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Global.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Global.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Global~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Global.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Global.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/JSNode/JSNode+Renderable.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Renderable.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Renderable.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Renderable~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Renderable.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode+Renderable.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/JSNode/JSNode.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JSNode.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/JSNode/StringRenderer.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/StringRenderer.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/StringRenderer.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/StringRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/StringRenderer.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/StringRenderer.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/JavaScriptKitSupport.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JavaScriptKitSupport.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JavaScriptKitSupport.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JavaScriptKitSupport~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JavaScriptKitSupport.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/JavaScriptKitSupport.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/WebManager/SailorWebManager.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/SailorWebManager.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/SailorWebManager.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/SailorWebManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/SailorWebManager.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/SailorWebManager.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/WebManager/WebEnvironment.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEnvironment.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEnvironment.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEnvironment~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEnvironment.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/WebEnvironment.dia"
+  },
+  "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/Sailor/Sources/SailorWeb/Sources/toGenerate/EventResult+ResultMap.swift": {
+    "dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+ResultMap.d",
+    "object": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+ResultMap.swift.o",
+    "swiftmodule": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+ResultMap~partial.swiftmodule",
+    "swift-dependencies": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+ResultMap.swiftdeps",
+    "diagnostics": "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/arm64-apple-macosx/debug/SailorWeb.build/EventResult+ResultMap.dia"
+  }
+}

@@ -23,6 +23,7 @@ import Sailor
 ///     NotFoundPage()
 /// }
 /// ```
+@MainActor
 public struct Router<R: Routable>: Fragment {
     public var hash: String
     public var children: [any Page]

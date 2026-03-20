@@ -214,7 +214,7 @@ public final class Navigator {
         let history = window.history.object!
         let stateObject = JSObject.global.Object.function!.new()
         let title = JSValue.string("")
-        _ = history.pushState?(stateObject, title, JSValue.string(fullURL))
+        _ = history.pushState!(stateObject, title, JSValue.string(fullURL))
         #endif
 
         url = readCurrentURL()
@@ -241,7 +241,7 @@ public final class Navigator {
         let history = window.history.object!
         let stateObject = JSObject.global.Object.function!.new()
         let title = JSValue.string("")
-        _ = history.replaceState?(stateObject, title, JSValue.string(fullURL))
+        _ = history.replaceState!(stateObject, title, JSValue.string(fullURL))
         #endif
 
         url = readCurrentURL()
