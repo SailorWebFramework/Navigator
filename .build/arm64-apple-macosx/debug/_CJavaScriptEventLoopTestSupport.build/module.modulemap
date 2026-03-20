@@ -1,4 +1,0 @@
-module _CJavaScriptEventLoopTestSupport {
-    umbrella "/Users/joshai/Documents/AI/Documents/Projects/Sailor/Navigator/.build/checkouts/JavaScriptKit/Sources/_CJavaScriptEventLoopTestSupport/include"
-    export *
-}
