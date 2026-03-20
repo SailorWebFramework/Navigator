@@ -220,6 +220,12 @@ public final class Navigator {
         url = readCurrentURL()
     }
 
+    /// Replace the current URL without creating a history entry.
+    /// Used by property wrappers (e.g. `@RouteQuery`, `@RouteHash`) to update the URL in-place.
+    static func replaceURL(_ path: String) {
+        performReplaceState(path)
+    }
+
     /// Replace the current URL via history.replaceState and update reactive state.
     private static func performReplaceState(_ path: String) {
         let fullURL: String
