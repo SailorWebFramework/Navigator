@@ -44,8 +44,10 @@ extension Element {
                 #if os(WASI)
                 if Navigator.hash == id {
                     let document = JSObject.global.document
-                    let element = document.getElementById(id)
-                    _ = element.object?.scrollIntoView()
+                    if let getElementById = document.getElementById.function {
+                        let element = getElementById(id)
+                        _ = element.object?.scrollIntoView?()
+                    }
                 }
                 #endif
             }
