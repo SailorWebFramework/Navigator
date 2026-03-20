@@ -8,7 +8,6 @@
 import Sailboat
 import Sailor
 #if os(WASI)
-import SailorWeb
 import JavaScriptKit
 #endif
 
@@ -44,9 +43,9 @@ extension Element {
             .onAppear {
                 #if os(WASI)
                 if Navigator.hash == id {
-                    // Scroll to this element using raw JS
-                    let element = SailorWeb.JSNode.document.getElementById?(id)
-                    _ = element?.object?.scrollIntoView?()
+                    let document = JSObject.global.document
+                    let element = document.getElementById(id)
+                    _ = element.object?.scrollIntoView()
                 }
                 #endif
             }
