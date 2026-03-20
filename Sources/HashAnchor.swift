@@ -37,9 +37,9 @@ extension Element {
     public func hashAnchor(_ id: String) -> Self {
         self
             .attribute(ElementAttributeGroup(name: "id", value: { id }))
-            .onAppear { handle in
+            .onAppear {
                 if Navigator.hash == id {
-                    handle.scrollIntoView()
+                    self.handle.scrollIntoView()
                 }
             }
     }

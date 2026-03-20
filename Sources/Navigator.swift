@@ -176,14 +176,14 @@ public final class Navigator {
             Navigator.url = readCurrentURL()
             return .undefined
         }
-        _ = window.addEventListener?("popstate", popstateClosure)
+        _ = window.addEventListener!("popstate", popstateClosure)
 
         // Listen for hashchange
         let hashchangeClosure = JSClosure { _ in
             Navigator.url = readCurrentURL()
             return .undefined
         }
-        _ = window.addEventListener?("hashchange", hashchangeClosure)
+        _ = window.addEventListener!("hashchange", hashchangeClosure)
         #endif
     }
 
