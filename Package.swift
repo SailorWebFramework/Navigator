@@ -10,10 +10,10 @@ let package = Package(
         .library(
             name: "Navigator",
             targets: ["Navigator"]
-      )
+        )
     ],
-    dependencies: [ 
-        .package(url:"https://github.com/SailorWebFramework/Sailor", from: "0.2.0")
+    dependencies: [
+        .package(url: "https://github.com/SailorWebFramework/Sailor", from: "0.2.0")
     ],
     targets: [
         .target(
