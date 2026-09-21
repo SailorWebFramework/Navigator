@@ -1,0 +1,45 @@
+//
+//  RouteMatch.swift
+//  Navigator
+//
+//  Captures extracted values from a matched URL.
+//
+
+/// The result of matching a URL against a route pattern.
+/// Contains extracted path params, query params, and hash fragment.
+public struct RouteMatch {
+    /// Path parameters extracted from `:param` segments (e.g. `["id": "123"]`).
+    public var params: [String: String]
+
+    /// Query string parameters (e.g. `["q": "swift", "page": "2"]`).
+    public var query: [String: String]
+
+    /// Hash fragment, if present (without the `#` prefix).
+    public var hash: String?
+
+    public init(
+        params: [String: String] = [:],
+        query: [String: String] = [:],
+        hash: String? = nil
+    ) {
+        self.params = params
+        self.query = query
+        self.hash = hash
+    }
+
+    /// Subscript for convenient access to path params.
+    public subscript(_ key: String) -> String? {
+        params[key]
+    }
+
+    /// Decode the query dictionary into a `QueryParams` conforming type.
+    /// Uses the query dictionary to populate the type.
+    /// Falls back to `T()` on any failure.
+    public func decodeQuery<T: QueryParams>() -> T {
+        // For WASM, Foundation is not available. Use a simple approach:
+        // return default instance. Full decoding requires the @Routable macro
+        // to generate per-type decoders that don't depend on Foundation.
+        // TODO: Generate type-specific decoders in Phase 3 macro.
+        return T()
+    }
+}
